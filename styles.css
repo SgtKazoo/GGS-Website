@@ -1,0 +1,52 @@
+* {background-color: #e45c10}
+
+.flex-box {
+    display: flex;
+}
+
+.banner{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    max-height: 200px;
+}
+
+.banner img{
+    max-width: 100%;
+    max-height: inherit;
+    justify-content: center;
+}
+
+.page-content{
+    background-color: grey;
+    max-height: 1000px;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.game-button-container{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background: black;
+    display:flex;
+    flex: 3;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*Button for each game*/
+.game-button-container > a{
+    background: yellow;
+    margin: 15px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.twitter-container{
+    flex: 1;
+    max-width: 100%;
+}
+
