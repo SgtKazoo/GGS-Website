@@ -69,3 +69,8 @@
     align-items: center;
     margin: auto;
 }
+
+.below-banner > button{
+    background-color: black;
+    color: #e45c10;
+}
